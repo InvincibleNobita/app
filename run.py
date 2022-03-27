@@ -10,4 +10,4 @@ app.register_blueprint(posts_bp, url_prefix='/posts')
 app.register_blueprint(weather_bp,url_prefix='/weather')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
